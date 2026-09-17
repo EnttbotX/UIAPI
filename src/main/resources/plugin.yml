@@ -1,0 +1,21 @@
+main: x.Entt.UIAPI.UIAPI
+name: Untitled-Inventories-API
+version: 1.0.0
+api-version: "1.13"
+author: "Enttbot"
+
+commands:
+  uiapi-test:
+    description: Commands for testing...
+    aliases: [ uitest ]
+
+permissions:
+  uiapi.*:
+    default: op
+    children:
+      uiapi.test: true
+      uiapi.updates: true
+  uiapi.test:
+    default: false
+  uiapi.updates:
+    default: false
