@@ -98,10 +98,6 @@ public class Item {
         return this;
     }
 
-    /**
-     * Marca un precio para el item. Se muestra automáticamente como una línea
-     * extra de lore al construir el ItemStack (no reemplaza el lore ya definido).
-     */
     public Item price(double price) {
         this.price = price;
         return this;
